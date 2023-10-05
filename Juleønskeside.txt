@@ -2,4 +2,4 @@ Div elementer.
 Kan lage nye med php kommandoer
 True or false access authenticator med passordinput og POST check
 Div-elementer skal inneholde: Header, beskrivelse, lenker og lignende.
-Bør kobles opp til en SQL server for enklere lagring av data.
+Bør kobles opp til en SQL server for enklere lagring av data. Ikke mulig på github, bør bruke fillagring istedenfor her.

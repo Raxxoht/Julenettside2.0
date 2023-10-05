@@ -1,0 +1,12 @@
+{
+    "Student":[{
+        "Name":"Jason",
+        "Roll":7000,
+        "subject":"PHP"
+    },{
+        "Name":"Keith",
+        "Roll":7001,
+        "subject":"java"
+    }
+]
+}

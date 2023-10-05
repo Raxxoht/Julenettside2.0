@@ -1,12 +1,1 @@
-{
-    "Student":[{
-        "Name":"Jason",
-        "Roll":7000,
-        "subject":"PHP"
-    },{
-        "Name":"Keith",
-        "Roll":7001,
-        "subject":"java"
-    }
-]
-}
+[{"Header":"Xbox360","Desc":"Bra konsoll","Price":4000,"Link":"Microsoft.com"},{"Header":"Playstation","Desc":"OK konsoll","Price":3500,"Link":"Sony.com"},{"Header":"Switch","Desc":"Kul greie","Price":3000,"Link":"Nintendo.com"}]

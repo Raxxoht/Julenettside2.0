@@ -1,7 +1,26 @@
 body {
     background-color:green;
 }
-h1 {
+#Welcome {
     color:red;
     text-align: center;
+}
+#Please {
+    color: red;
+    text-align: center;
+}
+#videreKnapp {
+    font-size: 34px;
+    text-align: center;
+    color: navy;
+    text-decoration: none;
+    border: 2px red solid;
+}
+#anchorKnapp {
+    text-decoration: none;
+}
+#videreKnapp:hover{
+    background: navy;
+    color: red;
+    transition: ease-in-out 0.3s;
 }

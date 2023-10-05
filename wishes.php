@@ -9,19 +9,19 @@
 <body>
     <h1 id="Welcome">Her er mine ønsker!</h1>
     <?php
-    $oList = array();
-    $jData = file_get_contents("my_data.json");
-    $jInfo = json_decode($jData, true);
-    foreach($jInfo as $x){
+    $oList = array(); #definerer en liste for å holde styr på objekter
+    $jData = file_get_contents("my_data.json"); #Henter inn dataen fra json filen
+    $jInfo = json_decode($jData, true); #Dekoder dataen hentet inn fra json filen
+    foreach($jInfo as $x){ #Kjører en loop som legger alle objektene inn i objektlista fra den dekodede dataen fra json filen
         array_push($oList, $x);
     }
-    print_r($oList);
-    class Wish {
+    print_r($oList); #Printer ut alle objektene i objektlista
+    class Wish { #Definerer klassen for ønske
         public $Header;
         public $Desc;
         public $Price;
         public $Link;
-        function __construct($Header, $Desc, $Price, $Link){
+        function __construct($Header, $Desc, $Price, $Link){ #Lager en constructor for enklere dannelse av objekter
             $this->Header = $Header;
             $this->Desc = $Desc;
             $this->Price = $Price;
@@ -33,7 +33,6 @@
         array_push($oList, $myObject);
     }
     global $encoded;
-    global $sum;
     $encoded = json_encode($oList);
     $file = fopen("my_data.json", "w+");
     fwrite($file, $encoded);
